@@ -1,0 +1,21 @@
+{
+   "compilerOptions": {
+     "outDir": "./dist/",
+     //* подсвечивает все, где не указан тип - не позволяет использовать без типа
+     "noImplicitAny": true,
+     "module": "ESNext",
+     "target": "es5",
+     "jsx": "react",
+     "allowJs": true,
+     "moduleResolution": "node",
+     //* используем импорты без звездочки
+     "allowSyntheticDefaultImports": true,
+     //* используем привычные импорты вместо require от NodeJS
+     "esModuleInterop": true
+   },
+   "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS"
+      }
+    }
+ }
